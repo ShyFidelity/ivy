@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
-import Main from './pages/Main'
-import Contact from './pages/Contact'
+import Main from './pages/Main';
+import Contact from './pages/Contact';
+import Gallery from './pages/Gallery';
 import NavTabs from './NavTabs';
+import './App.css'
 
 export default function Container() {
     const [currentPage, setCurrentPage] = useState('Home');
@@ -13,6 +15,9 @@ export default function Container() {
         }
         if ( currentPage === 'Contact') {
             return <Contact />
+        }
+        if (currentPage=== 'Gallery') {
+            return <Gallery />
         }
     }
 

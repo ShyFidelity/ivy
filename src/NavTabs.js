@@ -14,6 +14,9 @@ function NavTabs({currentPage, handlePageChange}) {
                 onClick={()=>handlePageChange('Contact')}
                 className={currentPage==='Contact' ? 'nav-link-active' : 'nav-link'}>Contact</a></li>
 
+                <li><a href="#Gallery"
+                onClick={()=>handlePageChange('Gallery')}>Gallery</a></li>
+
             </ul>
 
         </div>
