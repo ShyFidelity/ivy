@@ -1,29 +1,46 @@
-import React, { useState } from 'react';
-import Nails1 from '../images/nails1.png'
-import Nails2 from '../images/nails2.png'
+import React, {useState} from 'react';
+import  CarouselData from './CarouselData';
+import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa';
 
 
+const Carousel = ( { slides }) => {
 
-function NailsCarousel() {
+    const [current, setCurrent] = useState(0)
+     const length = slides.length;
 
+     const nextSlide = () => {
+         setCurrent( current === length - 1 ? 0 : current+1)
+     }
 
+     const prevSlide = () => {
+         setCurrent(current === 0 ? length-1 : current -1)
+     }
 
-    const [nailPics, setNailPics] = useState([Nails1, Nails2])
-
-
+    
+        if (!Array.isArray(slides) || slides.length <= 0) {
+            return null;
+        }
 
     return (
+        <section className="slider">
+         <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />   
+         <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide}/>   
+           
+         {CarouselData.map((slide, index) => {
+         
+         return (
 
-        <div>
-         <ul>
-             {nailPics.map(pic => (
-                 <li key={pic}> <img src={pic} alt="ivy nails" />  </li>
-             ))}
-             <li>{nailPics[1]}</li>
-         </ul>
+        <div className= {index === current ? 'slide active' : 'slide'} key= {index}>
+            {index === current && (<img className="image" src = {slide.image} alt= "ivy nails" />)}
+
+
+
         </div>
+      )
+         
+         })}
+        </section>
     )
-    
 }
 
-export default NailsCarousel
+export default Carousel;

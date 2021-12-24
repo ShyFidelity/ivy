@@ -10,6 +10,10 @@ function NavTabs({currentPage, handlePageChange}) {
                 >Main</a>
                 </li>
 
+                <li><a href="#BookNow"
+                onClick={()=>handlePageChange('BookNow')}
+                className={currentPage==='BookNow' ? 'nav-link-active' : 'nav-link'}>Book Now!</a></li>
+
                 <li><a href="#Contact"
                 onClick={()=>handlePageChange('Contact')}
                 className={currentPage==='Contact' ? 'nav-link-active' : 'nav-link'}>Contact</a></li>

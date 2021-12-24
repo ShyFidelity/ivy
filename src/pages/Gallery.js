@@ -1,12 +1,13 @@
 import NailsCarousel from '../components/Carousel'
+import CarouselData from '../components/CarouselData'
 
 
 function Gallery() {
     return (
 
-<div>
+<div className="container">
     <h1>Gallery</h1>
-    <NailsCarousel />
+    <NailsCarousel slides={CarouselData}/>
 
 </div>
 
