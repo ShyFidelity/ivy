@@ -4,13 +4,12 @@
   background-repeat:no-repeat;
   background-position: center;
   background-size: cover;
-width: 100vw;
-height: 100vh;
+  width: 100vw;
+  height: 100vh;
 }
 
 .slider {
   position: relative;
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,4 +55,46 @@ height: 100vh;
   opacity: 1;
   transition-duration: .5s;
   transform: scale(1.01);
+}
+
+/* Cards are split into two columns at 992px or smaller */
+@media screen and (max-width: 992px) {
+  .slider {
+    width: 100%;
+    height: auto;
+  }
+
+  .right-arrow{
+    right: 12px;
+  font-size: 2rem;
+  }
+
+  .left-arrow {
+    left: 12px;
+    font-size: 2rem;
+  }
+  
+}
+
+/* images are stacked on top of each other at 768px or smaller */
+@media screen and (max-width: 768px) {
+  .image {
+    width: 100%;
+    height: auto;
+  }
+
+  .right-arrow {
+    position: absolute;
+    right: 2px;
+    font-size: 2rem;
+    
+  }
+  
+  .left-arrow {
+    position:absolute;
+    left: 2px;
+    font-size: 2rem;
+  }
+
+ 
 }
