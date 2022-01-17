@@ -1,6 +1,12 @@
 .container {
-    max-width: 450px;
-    margin-left: 25%;
-    margin-right: 25%;
+    
+    display: flex;
+    flex-wrap:nowrap;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    padding: 10%;
+    max-width: 700px;
+
     
 }

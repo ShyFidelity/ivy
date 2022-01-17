@@ -1,3 +1,4 @@
+import './Nav.css'
 
 function NavTabs({currentPage, handlePageChange}) {
 
@@ -19,7 +20,8 @@ function NavTabs({currentPage, handlePageChange}) {
                 className={currentPage==='Contact' ? 'nav-link-active' : 'nav-link'}>Contact</a></li>
 
                 <li><a href="#Gallery"
-                onClick={()=>handlePageChange('Gallery')}>Gallery</a></li>
+                onClick={()=>handlePageChange('Gallery')}
+                className={currentPage==='Gallery' ? 'nav-link-active' : 'nav-link'}>Gallery</a></li>
 
             </ul>
 
