@@ -1,29 +1,44 @@
 import './Nav.css'
+import { Nav } from 'react-bootstrap';
+import { Navbar } from 'react-bootstrap';
+import { NavDropdown } from 'react-bootstrap';
+import { Container } from 'react-bootstrap'; 
 
 function NavTabs({currentPage, handlePageChange}) {
 
     return(
+        
+        
         <div>
-            <ul className="nav">
-                <li><a href="#Main"
-                onClick={()=>handlePageChange('Main')}
-                className={currentPage=== 'Home' ? 'nav-link-active' : 'nav-link'}
-                >Main</a>
-                </li>
+    <Navbar bg="light" expand="lg">
+  <Container>
+    <Navbar.Brand href="#home">Ivy Nails</Navbar.Brand>
+    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    <Navbar.Collapse id="basic-navbar-nav">
+      <Nav className="me-auto">
+        <Nav.Link href="#Main"
+        onClick={()=>handlePageChange('Main')}
+        className={currentPage=== 'Home' ? 'nav-link-active' : 'nav-link'}>
+        Home</Nav.Link>
+        <Nav.Link 
+          onClick={()=>handlePageChange('BookNow')}
+          className={currentPage==='BookNow' ? 'nav-link-active' : 'nav-link'}
+        href="#BookNow">Book Now</Nav.Link>
 
-                <li><a href="#BookNow"
-                onClick={()=>handlePageChange('BookNow')}
-                className={currentPage==='BookNow' ? 'nav-link-active' : 'nav-link'}>Book Now!</a></li>
+<Nav.Link 
+          onClick={()=>handlePageChange('Contact')}
+          className={currentPage==='Contact' ? 'nav-link-active' : 'nav-link'}
+        href="#Contact">Contact</Nav.Link>
+        
+        <Nav.Link 
+          onClick={()=>handlePageChange('Gallery')}
+          className={currentPage==='Gallery' ? 'nav-link-active' : 'nav-link'}
+        href="#Gallery">Gallery</Nav.Link>
+      </Nav>
+    </Navbar.Collapse>
+  </Container>
+</Navbar>
 
-                <li><a href="#Contact"
-                onClick={()=>handlePageChange('Contact')}
-                className={currentPage==='Contact' ? 'nav-link-active' : 'nav-link'}>Contact</a></li>
-
-                <li><a href="#Gallery"
-                onClick={()=>handlePageChange('Gallery')}
-                className={currentPage==='Gallery' ? 'nav-link-active' : 'nav-link'}>Gallery</a></li>
-
-            </ul>
 
         </div>
     )
