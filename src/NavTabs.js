@@ -34,16 +34,16 @@ function NavTabs({currentPage, handlePageChange}) {
           onClick={()=>handlePageChange('Gallery')}
           className={currentPage==='Gallery' ? 'nav-link-active' : 'nav-link'}
         href="#Gallery">Gallery</Nav.Link>
+
+            
+<Nav.Link 
+          onClick={()=>handlePageChange('Services')}
+          className={currentPage==='Services' ? 'nav-link-active' : 'nav-link'}
+        href="#Services">Services</Nav.Link>
       </Nav>
-      <NavDropdown title="Services" id="basic-nav-dropdown">
-          <NavDropdown.Item href="#action/3.1">Manicures</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.1">Pedicures</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">Waxing</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.3">Facials</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.1">Eyelashes</NavDropdown.Item>
-          <NavDropdown.Divider />
-          <NavDropdown.Item href="#action/3.4">Click for more details!</NavDropdown.Item>
-        </NavDropdown>
+
+      
+  
     </Navbar.Collapse>
   </Container>
 </Navbar>

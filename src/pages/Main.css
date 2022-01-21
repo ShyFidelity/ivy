@@ -11,3 +11,18 @@
 
     
 }
+
+.main-bg {
+    background-color: rgb(249, 241, 228);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.salon {
+    width: max-content;
+    border: palevioletred 8px solid;
+}
