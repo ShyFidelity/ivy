@@ -37,7 +37,7 @@ const wrapperStyles = {
   height: 600,
   overflow: "hidden",
   background:
-    "url(https://deploy-preview-5--reinventsoftwareio.netlify.com/static/cover.841dad16.jpg) no-repeat",
+    "url(../images/ivybg.png) no-repeat",
   backgroundSize: "cover",
   backgroundAttachment: "fixed"
 };
@@ -46,18 +46,12 @@ const wrapperStyles = {
 
 export default function Services(){
     return (
-        <div className="container">
+        <div >
 
 <div style={{ height: 1000 }}>
     <div style={wrapperStyles}>
       <Plx parallaxData={exampleParallaxData} style={plxStyles}>
-        <h1>We build modern, reliable software to help you work better.</h1>
-        <button>Get in touch now</button>
-      </Plx>
-    </div>
-  </div>
-
-<h1>Services</h1>
+      <h1>Services</h1>
 <Container>
   <Row>
   <Col sm>  <p>Manicures</p></Col>
@@ -79,6 +73,11 @@ export default function Services(){
 
   </Row>
 </Container>
+      </Plx>
+    </div>
+  </div>
+
+
           
          
         
