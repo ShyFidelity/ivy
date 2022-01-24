@@ -10,7 +10,7 @@ import Plx from "react-plx";
 const exampleParallaxData = [
   {
     start: 0,
-    end: 1000,
+    end: 500,
     properties: [
       {
         startValue: 0,
@@ -30,7 +30,7 @@ const plxStyles = {
   color: "#fff",
   position: "fixed",
   width: "100%",
-  height: 600,
+  height:500,
   flexDirection: "column",
 };
 
@@ -49,8 +49,8 @@ const styles = {
 }
 const Main = () => {
   return (
-    <div className="main-bg" >
-      <div style={{ height: 2000 }}>
+    <div  >
+      <div className="main-bg" style={{ height: 1500 }}>
         <div style={wrapperStyles}>
           <Plx parallaxData={exampleParallaxData} style={plxStyles}>
             <h1>Welcome to Ivy Nails!</h1>

@@ -27,3 +27,8 @@
   font-family: 'Luxurious Script', cursive;
   font-size: 3em !important;
 }
+
+.bg-light {
+  --bs-bg-opacity: 50%;
+  background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+}
