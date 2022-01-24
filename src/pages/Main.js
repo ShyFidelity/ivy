@@ -54,6 +54,7 @@ const Main = () => {
         <div style={wrapperStyles}>
           <Plx parallaxData={exampleParallaxData} style={plxStyles}>
             <h1>Welcome to Ivy Nails!</h1>
+            <h2>*this page is under construction*</h2>
             <img src= {HandRose} alt="" />
 
 
