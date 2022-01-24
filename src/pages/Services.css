@@ -5,3 +5,20 @@
 .accordion-item {
     background-color: burlywood;
 }
+
+.accordion-button:not(.collapsed){
+background-color: rgb(249, 241, 228) !important;
+color: rgb(31, 31, 31) !important;
+}
+
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #fe86b4 !important; 
+    outline: 0;
+   box-shadow: 0 0 0 0.25rem rgba(249, 23, 102, 0.25) !important; 
+}
+
+.accordion-button::after{
+    color: black !important;
+}

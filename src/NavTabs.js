@@ -14,7 +14,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link
-                href="#/"
+                href="#Main"
                 onClick={() => handlePageChange("Main")}
                 className={
                   currentPage === "Home" ? "nav-link-active" : "nav-link"
