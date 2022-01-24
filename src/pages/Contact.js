@@ -1,5 +1,12 @@
 
 import {Container, Row, Col} from 'react-bootstrap'
+
+
+const buttonStyle = {
+  fontFamily: 'Josefin Sans', 
+  backgroundColor: 'pink'
+
+}
 export default function Contact(){
     return (
         <div className="container">
@@ -13,7 +20,7 @@ export default function Contact(){
             href="tel:3035043536"
             onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"
           >
-            <p ><button className="call-button">303-504-3536</button></p>
+            <p ><button style={buttonStyle}>303-504-3536</button></p>
            
           </a>
     </Col> 

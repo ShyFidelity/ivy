@@ -2,25 +2,42 @@ import '../pages/Main.css'
 import { Container, Row, Col } from "react-bootstrap";
 import HandRose from '../images/handrose.png';
 
+const pStyle = {
+  fontSize: '13px',
+  textAlign: 'center', 
+  marginTop: '10rem',
+  maxWidth: '300px'
+};
 
+
+const buttonStyle = {
+  fontFamily: 'Josefin Sans', 
+  backgroundColor: 'pink'
+
+}
 const MainInfo  = () => {
 
     return (
         <div className='main-bg'>
     <Container>
     <Row>
-      <Col className="p" sm>
+      <Col style={pStyle} sm>
       <p>Established in 2008.
 
-Ivy Nails first opened in the summer of 2007 and has been the best neighborhood nail salon in Denver.
+Ivy Nails first opened in the summer of 2007 and has been the best neighborhood nail salon in Denver. The interior was thoughtfully designed for style, comfort, and exceptional hygiene.
 </p>
       </Col>
     </Row>
 
  
     <Row>
-      {" "}
-      <button className='mainBtn'>Get in touch now</button>
+    <a
+            href="tel:3035043536"
+            onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"
+          >
+            <p ><button style={buttonStyle}>Get in touch now!</button></p>
+           
+          </a>
     </Row>
   </Container>   
   </div>

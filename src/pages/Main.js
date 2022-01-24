@@ -7,6 +7,7 @@ import React, { Component } from "react";
 import { render } from "react-dom";
 import Plx from "react-plx";
 
+
 const exampleParallaxData = [
   {
     start: 0,
@@ -44,9 +45,7 @@ const wrapperStyles = {
   backgroundAttachment: "fixed",
 };
 
-const styles = { 
 
-}
 const Main = () => {
   return (
     <div  >
