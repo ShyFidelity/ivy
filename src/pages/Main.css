@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&display=swap');
+
 .container {
     
     display: flex;
@@ -5,7 +7,7 @@
     flex-direction: column;
     justify-content:center;
     align-items:center;
-    max-width: 700px;
+    max-width: 800px;
     margin-left: 20vw;
     margin-right: 20vw;
 

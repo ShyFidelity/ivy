@@ -12,7 +12,7 @@ export default function Container() {
 
 
     const renderPage = () => {
-        if (currentPage === 'Main') {
+        if (currentPage === '/') {
             return <Main />;
         }
         if ( currentPage === 'Contact') {

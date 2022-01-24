@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
 .nav {
@@ -14,11 +14,16 @@
 .nav-link {
   text-decoration: none;
   font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1em;
+
 }
 
 .nav-link-active {
-  text-decoration: none;
+  text-decoration-line:underline;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: large;
+
+}
+
+.navbar-brand {
+  font-family: 'Luxurious Script', cursive;
+  font-size: 30em;
 }
