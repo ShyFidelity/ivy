@@ -31,6 +31,6 @@
 }
 
 .bg-light {
-  --bs-bg-opacity: 50%;
+  --bs-bg-opacity: 10%;
   background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
 }

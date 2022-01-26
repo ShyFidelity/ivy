@@ -37,7 +37,7 @@ const plxStyles = {
 
 const wrapperStyles = {
   position: "relative",
-  height: 1000,
+  height: 800,
   overflow: "hidden",
   background:
     "url(https://s3-media0.fl.yelpcdn.com/bphoto/WSSyuhHqLi8E5dCXACuZzg/o.jpg) no-repeat",
@@ -49,7 +49,7 @@ const wrapperStyles = {
 const Main = () => {
   return (
     <div  >
-      <div className="main-bg" style={{ height: 1500 }}>
+      <div className="main-bg" style={{ height: 1200 }}>
         <div style={wrapperStyles}>
           <Plx parallaxData={exampleParallaxData} style={plxStyles}>
             <h1>Welcome to Ivy Nails!</h1>
@@ -59,8 +59,9 @@ const Main = () => {
 
           </Plx>
         </div>
-       <MainInfo />
+        <MainInfo />
       </div>
+    
     </div>
   );
 };
