@@ -8,7 +8,7 @@ import NavTabs from './NavTabs';
 import './App.css'
 
 export default function Container() {
-    const [currentPage, setCurrentPage] = useState('Home');
+    const [currentPage, setCurrentPage] = useState('Main');
 
 
     const renderPage = () => {

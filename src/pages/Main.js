@@ -7,11 +7,10 @@ import React, { Component } from "react";
 import { render } from "react-dom";
 import Plx from "react-plx";
 
-
 const exampleParallaxData = [
   {
     start: 0,
-    end: 500,
+    end: 1000,
     properties: [
       {
         startValue: 0,
@@ -31,13 +30,13 @@ const plxStyles = {
   color: "#fff",
   position: "fixed",
   width: "100%",
-  height:500,
+  height: 600,
   flexDirection: "column",
 };
 
 const wrapperStyles = {
   position: "relative",
-  height: 800,
+  height: 1000,
   overflow: "hidden",
   background:
     "url(https://s3-media0.fl.yelpcdn.com/bphoto/WSSyuhHqLi8E5dCXACuZzg/o.jpg) no-repeat",
@@ -45,23 +44,23 @@ const wrapperStyles = {
   backgroundAttachment: "fixed",
 };
 
+const styles = { 
 
+}
 const Main = () => {
   return (
-    <div  >
-      <div className="main-bg" style={{ height: 1200 }}>
+    <div className="main-bg" >
+      <div style={{ height: 2000 }}>
         <div style={wrapperStyles}>
           <Plx parallaxData={exampleParallaxData} style={plxStyles}>
             <h1>Welcome to Ivy Nails!</h1>
-            <h2>*this page is under construction*</h2>
             <img src= {HandRose} alt="" />
 
 
           </Plx>
         </div>
-        <MainInfo />
+       <MainInfo />
       </div>
-    
     </div>
   );
 };
