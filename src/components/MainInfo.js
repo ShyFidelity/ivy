@@ -1,4 +1,5 @@
 import "../pages/Main.css";
+import Star from '../images/star.svg'
 import { Container, Row, Col } from "react-bootstrap";
 
 const pStyle = {
@@ -32,6 +33,10 @@ const MainInfo = () => {
           </Col>
 
           <Col style={pStyle} sm>
+           " <img src={Star} alt="" />
+            <img src={Star} alt="" />
+            <img src={Star} alt="" />
+            <img src={Star} alt="" />"
             <p>
               See our services page and yelp reviews for more! 
             </p>

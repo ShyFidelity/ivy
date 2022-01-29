@@ -6,7 +6,7 @@
   justify-content: space-evenly;
   align-items: center;
   list-style: none;
-  background-color: rgb(249, 241, 228);
+  background-color: rgba(249, 241, 228, 0.469);
   margin: 0 !important;
   padding: 3%;
 }
@@ -31,6 +31,6 @@
 }
 
 .bg-light {
-  --bs-bg-opacity: 10%;
-  background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+  --bs-bg-opacity: .6 !important;
+  background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity));
 }
