@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/ivy/static/css/main.f99ca7d8.chunk.css",
-    "main.js": "/ivy/static/js/main.5eb49eed.chunk.js",
-    "main.js.map": "/ivy/static/js/main.5eb49eed.chunk.js.map",
+    "main.css": "/ivy/static/css/main.0fa370ca.chunk.css",
+    "main.js": "/ivy/static/js/main.4dcbd012.chunk.js",
+    "main.js.map": "/ivy/static/js/main.4dcbd012.chunk.js.map",
     "runtime-main.js": "/ivy/static/js/runtime-main.45e427fc.js",
     "runtime-main.js.map": "/ivy/static/js/runtime-main.45e427fc.js.map",
     "static/css/2.0a9ec390.chunk.css": "/ivy/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.aaaf93ad.chunk.js": "/ivy/static/js/2.aaaf93ad.chunk.js",
-    "static/js/2.aaaf93ad.chunk.js.map": "/ivy/static/js/2.aaaf93ad.chunk.js.map",
+    "static/js/2.3d4427c8.chunk.js": "/ivy/static/js/2.3d4427c8.chunk.js",
+    "static/js/2.3d4427c8.chunk.js.map": "/ivy/static/js/2.3d4427c8.chunk.js.map",
     "static/js/3.3719f33f.chunk.js": "/ivy/static/js/3.3719f33f.chunk.js",
     "static/js/3.3719f33f.chunk.js.map": "/ivy/static/js/3.3719f33f.chunk.js.map",
     "index.html": "/ivy/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/ivy/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.f99ca7d8.chunk.css.map": "/ivy/static/css/main.f99ca7d8.chunk.css.map",
-    "static/js/2.aaaf93ad.chunk.js.LICENSE.txt": "/ivy/static/js/2.aaaf93ad.chunk.js.LICENSE.txt",
+    "static/css/main.0fa370ca.chunk.css.map": "/ivy/static/css/main.0fa370ca.chunk.css.map",
+    "static/js/2.3d4427c8.chunk.js.LICENSE.txt": "/ivy/static/js/2.3d4427c8.chunk.js.LICENSE.txt",
     "static/media/App.css": "/ivy/static/media/ivybg.124d20b6.png",
     "static/media/nails1.0aae6939.png": "/ivy/static/media/nails1.0aae6939.png",
     "static/media/nails10.ed90c156.png": "/ivy/static/media/nails10.ed90c156.png",
@@ -24,13 +24,14 @@
     "static/media/nails6.82f5e822.png": "/ivy/static/media/nails6.82f5e822.png",
     "static/media/nails7.5732375d.png": "/ivy/static/media/nails7.5732375d.png",
     "static/media/nails8.cf51c553.png": "/ivy/static/media/nails8.cf51c553.png",
-    "static/media/nails9.1fc3104c.png": "/ivy/static/media/nails9.1fc3104c.png"
+    "static/media/nails9.1fc3104c.png": "/ivy/static/media/nails9.1fc3104c.png",
+    "static/media/star.ecf2636e.svg": "/ivy/static/media/star.ecf2636e.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.45e427fc.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.aaaf93ad.chunk.js",
-    "static/css/main.f99ca7d8.chunk.css",
-    "static/js/main.5eb49eed.chunk.js"
+    "static/js/2.3d4427c8.chunk.js",
+    "static/css/main.0fa370ca.chunk.css",
+    "static/js/main.4dcbd012.chunk.js"
   ]
 }
