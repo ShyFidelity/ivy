@@ -28,7 +28,7 @@ const plxStyles = {
   textAlign: "center",
   padding: 40,
   color: "#fff",
-  position: "fixed",
+  position: "relative",
   width: "100%",
   height: 600,
   flexDirection: "column",
@@ -50,7 +50,7 @@ const styles = {
 const Main = () => {
   return (
     <div className="main-bg" >
-      <div style={{ height: 2000 }}>
+      <div style={{ height: 1200 }}>
         <div style={wrapperStyles}>
           <Plx parallaxData={exampleParallaxData} style={plxStyles}>
             <h1>Welcome to Ivy Nails!</h1>
