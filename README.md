@@ -4,8 +4,11 @@ This project was created with React.js and React Bootstrap.
 All the graphic elements were also created by me.  
 
 ## Deployed Link 
+
+### [https://shyfidelity.github.io/ivy](https://shyfidelity.github.io/ivy)
+
 ![ivy nails website](ivygoing.png)
- [https://shyfidelity.github.io/ivy](https://shyfidelity.github.io/ivy)
+
 
 ### `npm start`
 
