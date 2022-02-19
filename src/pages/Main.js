@@ -50,7 +50,7 @@ const styles = {
 const Main = () => {
   return (
     <div className="main-bg" >
-      <div style={{ height: 2000 }}>
+      <div style={{ height: 1600 }}>
         <div style={wrapperStyles}>
           <Plx parallaxData={exampleParallaxData} style={plxStyles}>
             <h1>Welcome to Ivy Nails!</h1>

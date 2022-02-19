@@ -17,7 +17,7 @@ const MainInfo = () => {
   return (
     <div className="main-bg">
       <Container>
-        <Row>
+        <Row className="main-info">
           <Col style={pStyle} sm>
             <p>
               Established in 2008. Ivy Nails first opened in the summer of 2007
@@ -33,7 +33,7 @@ const MainInfo = () => {
           </Col>
 
           <Col style={pStyle} sm>
-           " <img src={Star} alt="" />
+          " <img src={Star} alt="" />
             <img src={Star} alt="" />
             <img src={Star} alt="" />
             <img src={Star} alt="" />"
