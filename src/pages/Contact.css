@@ -1,0 +1,17 @@
+
+
+    
+
+@media screen and (max-width: 992px) {
+ .contact-img {
+
+  }
+}
+
+/* images are stacked on top of each other at 768px or smaller */
+@media screen and (max-width: 768px) {
+  .contact-img {
+    width: 25%;
+    height: auto;
+  }
+}
